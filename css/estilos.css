@@ -1,0 +1,137 @@
+body {
+	/*font-family:Arial, Helvetica, sans-serif;*/
+	font-size:12px;
+	/*background: #262626 url(img/bg.png) repeat scroll 0 0;*/
+	background: silver;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+    margin: 0pt;
+    /*color: #fff;*/
+}
+
+.esb {
+	color: blue;
+}
+
+
+.button {
+/*	margin-left: 5%;*/
+}
+
+p{
+	text-align:left;
+	text-indent: 2px;
+}
+
+#container{
+	/*background-color: rgba(78, 165, 242, 0.1);*/
+	width:530px;
+	margin-top:20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#registro {
+	height: 170px;
+	width: 530px;
+	margin-top:30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*
+background-color: #FFFFFF;
+border: 0.089286em solid #A7A6A6;
+border-radius: 0.89286em 0.89286em 0.89286em 0.89286em;
+box-shadow: 0.178572em 0.357144em 0.714288em #A7A6A6;
+float: left;
+height: auto !important;
+margin-right: 0.89286em;
+min-height: 44.643em;
+padding: 1.33929em;
+width: 62.4109em;
+*/
+
+
+fieldset {
+	background-color: rgba(78, 165, 242, 0.4);
+	/*border:1px solid white;*/
+	border-radius: 0.89286em 0.89286em 0.89286em 0.89286em;
+	/*box-shadow: 0.178572em 0.357144em 0.714288em #A7A6A6;*/
+	box-shadow: 10px 10px 10px black;
+	/*
+	border-radius: 10px;  
+	-moz-border-radius: 10px;  
+	-webkit-border-radius: 10px;
+	*/
+	width:510px;
+	height:auto;
+	margin:auto;
+}
+
+.nirea {
+	height:auto;
+
+}
+
+#result {
+	/*background-color: rgba(78, 165, 242, 0.4);*/
+	background-color: white;
+	width:507px;
+	padding:10px;
+	/*border:1px solid #bfcddb;*/
+	/*border:1px solid grey;*/
+	border:1px solid white;
+	
+	border-radius: 0.89286em 0.89286em 0.89286em 0.89286em;
+	box-shadow: 10px 10px 10px black;
+	/*box-shadow: 0.178572em 0.357144em 0.714288em #A7A6A6;*/
+	
+	/*border-radius: 10px;  
+	-moz-border-radius: 10px;  
+	-webkit-border-radius: 10px;*/
+	
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:50px;
+	text-align:center;
+}
+
+
+#estadisticas{
+	/*background-color: rgba(78, 165, 242, 0.1);*/
+	width:530px;
+	margin-top:20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+<!-- Tabla con filas de colores alternos -->
+
+#tabla_resultados {
+    width: 100%;
+}
+
+#tabla_resultados thead {
+    background-color: grey;
+    color: white;
+    <!-- text-indent: 64px; -->
+    text-align: center;
+}
+
+#tabla_resultados th {
+	padding-left: 34px;
+	padding-right: 34px;
+}
+
+#tabla_resultados tbody tr:nth-child(odd) {
+   background-color: rgba(78, 165, 242, 0.1); /* blue, 10% alpha */ 
+	<!-- background-color: rgba(0, 255, 0, 0.1); /* green, 10% alpha */ -->
+}
+
+#tabla_resultados tbody tr:nth-child(even) {
+   background-color: rgba(78, 165, 242, 0.4); /* blue, 40% alpha */ 
+   <!--	background-color: rgba(255, 0, 0, 0.3); /* red, 30% alpha */ -->
+}
+
+<!-- FIN DE: Tabla con filas de colores alternos -->
